@@ -1,0 +1,44 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\yanwen\Desktop\开发板\F407开发板\F407\F407.PcbDoc
+Date     : 2020/1/30
+Time     : 下午 8:46:48
+
+Processing Rule : Width Constraint (Min=6mil) (Max=60mil) (Preferred=15mil) (InNetClass('POR'))
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=10mil) (Max=10mil) (Prefered=10mil)  and Width Constraints (Min=15mil) (Max=15mil) (Prefered=15mil) (All)
+Rule Violations :0
+
+Processing Rule : Routing Via (MinHoleWidth=12mil) (MaxHoleWidth=12mil) (PreferredHoleWidth=12mil) (MinWidth=15mil) (MaxWidth=22mil) (PreferedWidth=22mil) (All)
+Rule Violations :0
+
+Processing Rule : Routing Layers(All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=6mil) (Max=60mil) (Preferred=6mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=6mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+   Violation between Short-Circuit Constraint: Between Pad KEY3-1(-448mil,1698mil) on Multi-Layer And Pad KEY3-2(-448mil,1430.283mil) on Multi-Layer Pads have the same JumperID: 1 but different Nets: GND and (No Net)
+   Violation between Short-Circuit Constraint: Between Pad KEY3-4(-625.165mil,1698mil) on Multi-Layer And Pad KEY3-3(-625.165mil,1430.283mil) on Multi-Layer Pads have the same JumperID: 2 but different Nets: (No Net) and KEY0
+   Violation between Short-Circuit Constraint: Between Pad KEY2-1(-121.417mil,1697.858mil) on Multi-Layer And Pad KEY2-2(-121.417mil,1430.142mil) on Multi-Layer Pads have the same JumperID: 1 but different Nets: PA0 and (No Net)
+   Violation between Short-Circuit Constraint: Between Pad KEY2-4(-298.583mil,1697.858mil) on Multi-Layer And Pad KEY2-3(-298.583mil,1430.142mil) on Multi-Layer Pads have the same JumperID: 2 but different Nets: (No Net) and +3.3V
+   Violation between Short-Circuit Constraint: Between Pad KEY1-1(-785mil,1698mil) on Multi-Layer And Pad KEY1-2(-785mil,1430.283mil) on Multi-Layer Pads have the same JumperID: 1 but different Nets: (No Net) and RESET
+   Violation between Short-Circuit Constraint: Between Pad KEY1-4(-962.165mil,1698mil) on Multi-Layer And Pad KEY1-3(-962.165mil,1430.283mil) on Multi-Layer Pads have the same JumperID: 2 but different Nets: (No Net) and GND
+Rule Violations :6
+
+
+Violations Detected : 6
+Time Elapsed        : 00:00:03
